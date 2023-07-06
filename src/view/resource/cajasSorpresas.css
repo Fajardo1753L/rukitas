@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.content__title{
+    background-color: rgb(58,35,107);
+    padding: 5%;
+    
+}
+
+.title__productos{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
+
+}
+.content__cajas{
+
+    display: flex;    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card__producto{
+
+    
+    width: 20%;
+    margin: 40px;
+    -webkit-box-shadow: -2px 15px 87px -2px rgb(58,35,107);
+    -moz-box-shadow: -2px 15px 87px -2px rgb(58,35,107);
+    box-shadow: -2px 15px 87px -2px rgb(58,35,107);
+    border-radius: 20px;
+}
+
+.card__producto:hover{
+
+    transform: scale(105%);
+    cursor: pointer;
+   
+    
+}
+
+.img__producto{
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 5%;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+footer > div > h2{
+    
+    margin: 0px;
+    line-height: normal;
+}
+
+.content__footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: rgb(58,35,107);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+.content__footer >div > h2{
+    margin-bottom: 5%;
+}
+
+
+
+.redes{
+    width: 50px;
+    filter: invert(1) sepia(0);
+}
+
+.redes:hover{
+    transform: scale(110%);
+}
+
+.content__contacto{
+    text-align: center;
+    width: 30%;
+}
+
+.content__redes{
+    text-align: center;
+    width: 23%;
+
+}
+
+.content__redes-icons{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content__terminos{
+    text-align: center;
+    width: 30%;
+}
+
+.terminos__link{
+
+    color: white;
+
+}
+
+.terminos__link:hover{
+
+    color: white;
+
+}
+
+.copyright{
+    padding-top: 2%;
+}
+.fa-heart{
+    animation: latir 0.5s infinite;
+}
+
+@keyframes latir {
+
+    from{
+        transform: scale(90%);
+    }
+    to{
+        transform: scale(110%);
+    }
+
+
+}
