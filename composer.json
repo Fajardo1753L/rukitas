@@ -1,0 +1,14 @@
+{
+    "name": "humberto/rukitas",
+    "description": "pagina web Rukitas",
+    "autoload": {
+        "psr-4": {
+            "Humberto\\Rukitas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emmanuel Fajardo"
+        }
+    ]
+}

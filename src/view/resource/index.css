@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.nombreLogo{
+
+    width: 290px;
+    height: 100px;
+    object-fit: cover;
+    transform: translate(-20%, -10%);
+    
+
+}
+
+
+
+
+
+.logo{
+    display: inline;
+}
+
+.content__navBar{
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    transform: translate(0px, -100px);
+    background-color: white;
+    
+}
+
+.navBar{
+    
+    list-style: none;
+    display: flex;
+    gap: 4%;
+    justify-content: end;
+    margin: 0px;
+    color: rgb(58,35,107);
+    align-items: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+main{
+    margin-top: 100px;
+}
+
+.contentCart{
+    
+    padding: 0px 70px 0px 0px;
+    
+
+}
+
+.point:hover{
+
+    cursor: pointer;
+}
+
+.products:hover .list__products{
+
+    cursor: pointer;
+    display: block;
+
+}
+
+.list__products{
+
+    display: none;
+    list-style: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgb(58,35,107);
+    transform: translate(-38%);
+    padding: 15px;
+}
+
+.list__products li{
+    color: white;
+   padding: 30px;
+    display: inline;
+
+}
+
+.productosMasVendidos{
+
+    display: flex;    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.title__productos{
+    color: rgb(58,35,107);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+.title__productosMasV{
+
+    color: rgb(58,35,107);
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+.card__producto{
+
+    
+    width: 30%;
+    margin: 20px;
+    
+}
+.card__producto:hover{
+
+    transform: scale(105%);
+    cursor: pointer;
+   
+    
+}
+
+.img__producto{
+    width: 100%;
+}
+
+.turquesa{
+    border: 9px ridge rgba(15,164,160,255);
+}
+
+.naranja{
+    border: 9px ridge rgba(236,115,36,255);
+}
+
+.fuccsia{
+    border: 9px ridge rgba(196,73,154,255);
+}
+
+
+
+.add__cart{
+   
+    
+    color: rgb(58,35,107);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 30px #FFF, 0 0 40px #FFF, 0 0 55px #FFF, 0 0 75px #FFF;
+}
+
+.add__cart:hover{
+   
+    color: rgb(58,35,107);
+    transform: scale(110%);
+    
+
+}
+
+footer{
+    margin-top: 5%;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+footer > div > h2{
+    
+    margin: 0px;
+    line-height: normal;
+}
+
+.content__footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    background-color: rgb(58,35,107);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+.content__footer >div > h2{
+    margin-bottom: 5%;
+}
+
+
+
+.redes{
+    width: 50px;
+    filter: invert(1) sepia(0);
+}
+
+.redes:hover{
+    transform: scale(110%);
+}
+
+.content__contacto{
+    text-align: center;
+    width: 30%;
+}
+
+.content__redes{
+    text-align: center;
+    width: 23%;
+
+}
+
+.content__redes-icons{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content__terminos{
+    text-align: center;
+    width: 30%;
+}
+
+.terminos__link{
+
+    color: white;
+
+}
+
+.terminos__link:hover{
+
+    color: white;
+
+}
+
+.copyright{
+    padding-top: 2%;
+}
+
+.sobreNosotros{
+    color: rgb(58,35,107);
+    font-family: 'Shrikhand', cursive;
+    
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.img__sobreNosotros{
+
+    
+    width: 40%;
+
+}
+.parrafo__sobreNosotros{
+    line-height: 2rem;
+    padding-top: 2%;
+
+}
+
+.navBar > li > a{
+    color: rgb(58,35,107);
+}
+
+.navBar > li > a:hover{
+    text-decoration: none;
+}
+
+.list__products > li > a{
+    color: white;
+   
+}
+
+.list__products > li > a:hover{
+    
+    text-decoration: none;
+}
+.content__magiaEnTi{
+    display: flex;
+    justify-content: center;
+
+}
+
+.content__lecturas{
+    display: grid;
+}
+
+.title__lecturas{
+    color: rgb(58,35,107);
+    margin: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
+}
+
+.img__lecturas{
+    justify-self: center;
+    outline: 5px solid rgb(58,35,107) ;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.form__lecturas{
+    justify-self: center;
+    margin-top: 5%;
+    color: rgb(58,35,107);
+}
+
+.btn__form-lecturas{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.btn__form-lecturas:hover{
+    transform: scale(102%);
+}
+
+
+.magiaEnTi{
+    width: 70%;
+    height: 70vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10%;
+}
+
+.fa-heart{
+    animation: latir 0.5s infinite;
+}
+
+@keyframes latir {
+
+    from{
+        transform: scale(90%);
+    }
+    to{
+        transform: scale(110%);
+    }
+
+
+}

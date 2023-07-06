@@ -1,0 +1,23 @@
+*{
+    font-family: 'Shrikhand', cursive;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    
+    color: rgb(58,35,107);
+    display: grid;
+    justify-items: center;
+
+}
+
+.titulo__terminos{
+    padding: 2%;
+}
+
+.parrafo__terminos{
+    width: 70%;
+}
