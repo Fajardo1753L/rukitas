@@ -7,27 +7,20 @@
 
 
 .nombreLogo{
-
-    width: 290px;
+    
+    width: 200px;
     height: 100px;
     object-fit: cover;
-    transform: translate(-20%, -10%);
+    transform: translate(0%, -5%);
     
 
 }
 
 
-
-
-
-.logo{
-    display: inline;
-}
-
 .content__navBar{
     position: fixed;
     z-index: 1000;
-    width: 100vw;
+    width: 100%;
     transform: translate(0px, -100px);
     background-color: white;
     border-bottom: 3px solid rgb(58,35,107) ;
@@ -38,9 +31,7 @@
     
     list-style: none;
     display: flex;
-    gap: 4%;
-    justify-content: end;
-    margin: 0px;
+    justify-content: space-evenly;
     color: rgb(58,35,107);
     align-items: center;
     font-family: 'Shrikhand', cursive;
@@ -54,7 +45,7 @@ main{
 
 .contentCart{
     
-    padding: 0px 70px 0px 0px;
+    padding: 0px 0px 0px 0px;
     
 
 }

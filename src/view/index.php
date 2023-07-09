@@ -93,7 +93,7 @@
             <div class="content__contacto">
                 <h2 class="contactanos">Contactanos</h2>
                 <h4><i class="fa fa-envelope"></i> RukitaStore@gmail.com</h4>
-                <h4><i class="fa fa-phone"></i> (+57) 3107213845</h4>
+                <h4><i class="fa fa-phone"></i> (+57) 3207498479</h4>
 
             </div>
             <div class="content__redes">
