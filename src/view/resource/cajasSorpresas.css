@@ -25,6 +25,11 @@
     flex-wrap: wrap;
 
 }
+.copyright{
+    padding-top: 2%;
+    text-align: center;
+}
+
 
 .card__producto{
 

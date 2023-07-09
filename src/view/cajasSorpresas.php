@@ -25,11 +25,11 @@
     </section>
 
     <footer>
-        <div class="content__footer">
+    <div class="content__footer">
             <div class="content__contacto">
                 <h2 class="contactanos">Contactanos</h2>
                 <h4><i class="fa fa-envelope"></i> RukitaStore@gmail.com</h4>
-                <h4><i class="fa fa-phone"></i> (+57) 3107213845</h4>
+                <h4><i class="fa fa-phone"></i> (+57) 3207498479</h4>
 
             </div>
             <div class="content__redes">
@@ -49,13 +49,13 @@
             </div>
             <div class="content__terminos">
                 <h2 class="terminos">Terminos</h2>
-                <a class="terminos__link" href="./terminos.php">
+                <a class="terminos__link" href="src\view\terminos.php">
                     <h4><i class="fa fa-book"></i> Terminos y Condiciones</h4>
                 </a>
             </div>
 
-            <p class="copyright">© Copyright 2023 Todos Los Derechos Reservados Rukita`s Store</p>
-
+            <p class="copyright">© Copyright 2023 Todos Los Derechos Reservados Rukita`s Store <br> Developed by E&R Creations</p>
+            
 
 
         </div>

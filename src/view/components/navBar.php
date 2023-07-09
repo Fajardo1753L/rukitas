@@ -7,7 +7,7 @@
             <li><a href="">Maquillajes</a></li>
             <li><a href="">Accesorios</a></li>
             <li><a href="">Cuidado Facial</a></li>
-            <li><a href="">Combos </a></li>
+            <li><a href="src\view\combos.php">Combos </a></li>
         </ul>
     </li>
     <li><a class="point" href="src/view/cajasSorpresas.php">Cajas Sorpresa</a> <i class="fas fa-archive"></i></li>
