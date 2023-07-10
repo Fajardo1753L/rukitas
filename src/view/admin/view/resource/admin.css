@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Shrikhand', cursive;
+}
+
+.tituloPrincipal{
+    color: rgb(58,35,107); 
+    font-family: 'Shrikhand', cursive; 
+    text-align: center;
+    transform: translate(0px,200px);
+    
+}
+
+main{
+    height: 480px;
+}

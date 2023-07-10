@@ -1,5 +1,5 @@
 <?php
-
+require "src/lib/conexion.php";
 $sql = "SELECT * FROM tbl_pmasvendidos";
 $query = $conexion -> prepare($sql);
 $query -> execute();

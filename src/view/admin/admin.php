@@ -17,7 +17,8 @@ if(isset($_POST["txtBtn"])){
     <title>Rukita`s Admin</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="icon" type="image/jpg" href="../../img/fondo.jpeg" />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./view/resource/navBarAdmin.css">
+    <link rel="stylesheet" href="./view/resource/admin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
@@ -25,8 +26,20 @@ if(isset($_POST["txtBtn"])){
 
 </head>
 <body>
-   <form action="admin.php" method="post">
-    <input type="submit" value="cerrar sesion" class="btn btn-primary" name="txtBtn">
+
+    <header class="content__navbar">
+        <?php 
+            require "./view/components/navBarAdmin.php";
+        ?>
+    </header>
+    <main>
+        <h2 class="tituloPrincipal">PANEL ADMINISTRATIVO RUKITAS´ STORE</h2>
+    
+
+
+    </main>
+    <form action="admin.php" method="post">
+        <input type="submit" value="cerrar sesion" class="btn btn-primary" name="txtBtn">
     </form>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

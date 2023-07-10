@@ -41,7 +41,7 @@
 
 
             <?php
-            require "src/lib/conexion.php";
+            
             require "src/lib/pMasVendidos.php";
             ?>
 
@@ -56,15 +56,10 @@
         <h2 class="title__productos"><i class="fa fa-heart" aria-hidden="true"></i> Sobre Nosotros <i class="fa fa-heart" aria-hidden="true"></i></h2>
         <section class="sobreNosotros">
 
-
-            <img class="img__sobreNosotros"  src="src\img\fondo.jpeg" alt="sobreNosotros">
-            <p class="parrafo__sobreNosotros">Somos una empresa joven y dinámica que nace con la pasión por el maquillaje, 
-            la belleza y la espiritualidad. Nuestro objetivo es ofrecer productos de calidad, innovadores y asequibles, 
-            que se adapten a las necesidades y gustos de cada persona. Queremos que te sientas bien contigo misma, 
-            que potencies tu belleza natural y que disfrutes del arte de maquillarte. Por eso, te ofrecemos una amplia 
-            gama de productos, desde los básicos imprescindibles hasta las últimas tendencias, con una variedad de colores, 
-            texturas y acabados.Te invitamos a conocer nuestro catálogo y a formar parte de nuestra comunidad de amantes del maquillaje.</p>
-
+            <?php
+                require "src/lib/sobreNosotros.php"; 
+            ?>
+            
         </section>
 
         <h2 class="title__lecturas"><i class="fa fa-heart" aria-hidden="true"></i> Lecturas de Tarot <i class="fa fa-heart" aria-hidden="true"></i></h2>   

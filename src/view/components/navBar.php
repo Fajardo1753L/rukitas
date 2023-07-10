@@ -1,5 +1,5 @@
 <ul class="navBar">
-    <li class="point"><img src="src\img\nombreLogo.jpg" alt="nombreLogo" class="nombreLogo"></li>
+    <li><img src="src\img\nombreLogo.jpg" alt="nombreLogo" class="nombreLogo"></li>
     <li><a class="point" href="index.php">Inicio</a> <i class="fas fa-home"></i> </li>
     <li class="products">Productos
         <i class="fas fa-shopping-bag"></i>
