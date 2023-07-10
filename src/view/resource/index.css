@@ -29,6 +29,7 @@
 
 .navBar{
     
+    margin: 0px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -116,11 +117,34 @@ main{
 }
 .card__producto:hover{
 
-    transform: scale(105%);
+    
     cursor: pointer;
    
     
 }
+
+.card__producto:hover .btnCart{
+
+    
+    cursor: pointer;
+    display: grid !important;
+    position: absolute;
+    transform: translate(0px, -100%);
+    
+}
+
+.btnCart{
+    background-color: rgb(58,35,107) !important;
+    border: none !important;
+    display: none !important;
+}
+
+.btnCart:hover{
+
+    background-color: rgb(134, 104, 199) !important;
+
+}
+
 
 .img__producto{
     width: 100%;
@@ -140,20 +164,7 @@ main{
 
 
 
-.add__cart{
-   
-    
-    color: rgb(58,35,107);
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 30px #FFF, 0 0 40px #FFF, 0 0 55px #FFF, 0 0 75px #FFF;
-}
 
-.add__cart:hover{
-   
-    color: rgb(58,35,107);
-    transform: scale(110%);
-    
-
-}
 
 footer{
     margin-top: 5%;
@@ -278,7 +289,9 @@ footer > div > h2{
 }
 
 .content__lecturas{
-    display: grid;
+    display: flex;
+    justify-content: center;
+    font-family: 'Shrikhand', cursive;
 }
 
 .title__lecturas{
@@ -294,12 +307,14 @@ footer > div > h2{
     outline: 5px solid rgb(58,35,107) ;
     border-radius: 20px;
     padding: 2px;
+    margin-right: 4%;
 }
 
 .form__lecturas{
     justify-self: center;
     margin-top: 5%;
     color: rgb(58,35,107);
+   
 }
 
 .btn__form-lecturas{

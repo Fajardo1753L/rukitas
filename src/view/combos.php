@@ -49,7 +49,7 @@
             </div>
             <div class="content__terminos">
                 <h2 class="terminos">Terminos</h2>
-                <a class="terminos__link" href="src\view\terminos.php">
+                <a class="terminos__link" href="./terminos.php">
                     <h4><i class="fa fa-book"></i> Terminos y Condiciones</h4>
                 </a>
             </div>

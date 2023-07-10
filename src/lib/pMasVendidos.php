@@ -11,6 +11,7 @@ if($query -> rowCount() > 0) {
         foreach($results as $result) { 
             echo '<div class="card__producto '.$result->color.'">';
             echo '<img  class="img__producto" src = "data:image/png;base64,' . base64_encode($result->imagen) . '"/>';
+            echo '<button class="btn btn-primary btnCart" >Añadir al Carrito</button>';
             echo '</div>';
             } 
 

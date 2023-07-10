@@ -67,9 +67,10 @@
 
         </section>
 
+        <h2 class="title__lecturas"><i class="fa fa-heart" aria-hidden="true"></i> Lecturas de Tarot <i class="fa fa-heart" aria-hidden="true"></i></h2>   
         <section class="content__lecturas">
 
-            <h2 class="title__lecturas"><i class="fa fa-heart" aria-hidden="true"></i> Lecturas de Tarot <i class="fa fa-heart" aria-hidden="true"></i></h2>
+            
             <img class="img__lecturas" src="src\img\lecturas.jpeg" width="20%"></img>
 
             <form class="form__lecturas " action="index.php" method="get">
